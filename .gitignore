@@ -111,4 +111,9 @@ dist
 # Sentry Auth Token
 .sentryclirc
 /backend/bin/
-node_modules
+
+# Ignore all files and folders inside node_modules
+/node_modules/*
+
+# But don't ignore the node_modules/@fortawesome directory
+!/node_modules/@fortawesome/
