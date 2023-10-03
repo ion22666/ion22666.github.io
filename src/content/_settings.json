@@ -1,0 +1,16 @@
+{
+    "name": "Ion Mocanu",
+    "logo": "",
+
+    "username": {
+        "github": "ion-mocanu",
+        "medium": "@ion-mocanu",
+        "dev": "ionmocanu"
+    },
+
+    "portfolio": {
+        "fork_this": "This is an open-source project 🥰",
+        "repo_html": "https://github.com/ion-mocanu/portfolio.git",
+        "repo_api": "https://api.github.com/repos/ion-mocanu/portfolio"
+    }
+}

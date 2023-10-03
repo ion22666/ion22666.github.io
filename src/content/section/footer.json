@@ -1,0 +1,57 @@
+{
+    "Websites": [
+        {
+            "person": "ionmocanu.com",
+            "link": "https://ionmocanu.com/",
+            "note": ""
+        }
+    ],
+
+    "links": [
+        {
+            "person": "Home",
+            "link": "https://ionmocanu.com/",
+            "note": ""
+        },
+        {
+            "person": "Documentations",
+            "link": "https://ionmocanu.com/docs",
+            "note": ""
+        },
+        {
+            "person": "Articles",
+            "link": "https://ionmocanu.com/articles",
+            "note": ""
+        },
+
+        {
+            "person": "Projects",
+            "link": "https://ionmocanu.com/projects",
+            "note": ""
+        },
+        {
+            "person": "Contact",
+            "link": "mailto:ionmocanu2266@gmail.com",
+            "note": ""
+        }
+    ],
+
+    "social": [
+        {
+            "url": "https://medium.com/@ion-mocanu",
+            "icon": "medium"
+        },
+        {
+            "url": "https://dev.to/ionmocanu",
+            "icon": "dev"
+        },
+        {
+            "url": "https://www.linkedin.com/in/ion-mocanu-/",
+            "icon": "linkedin"
+        },
+        {
+            "url": "https://github.com/ion-mocanu",
+            "icon": "github"
+        }
+    ]
+}

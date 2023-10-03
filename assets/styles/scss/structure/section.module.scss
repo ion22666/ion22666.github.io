@@ -1,0 +1,18 @@
+/*
+ * Author: Ion Mocanu (https://github.com/ion-Mocanu/)
+ * Copyright (c) 2023 Ion Mocanu
+ * License: MIT (See the LICENSE file for details)
+ */
+@import '../mixins';
+
+.default {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: clip;
+    overflow-x: hidden;
+}
+
+@include media($max: $mobile) {
+}

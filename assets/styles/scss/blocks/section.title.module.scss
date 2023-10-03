@@ -1,0 +1,17 @@
+/*
+ * Author: Ion Mocanu (https://github.com/ion-Mocanu/)
+ * Copyright (c) 2023 Ion Mocanu
+ * License: MIT (See the LICENSE file for details)
+ */
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: var(--size-1x);
+    padding: 0 var(--size-1x);
+
+    h2 {
+        color: var(--primary);
+    }
+}

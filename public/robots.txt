@@ -1,3 +1,11 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
-Disallow:
+Allow: *
+
+# Host
+Host: https://ionmocanu.com
+Host: https://www.ionmocanu.com
+
+# Sitemaps
+Sitemap: https://ionmocanu.com/sitemap.xml
+Sitemap: https://ionmocanu.com/sitemap-0.xml
