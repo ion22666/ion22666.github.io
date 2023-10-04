@@ -1,11 +1,4 @@
-const withPWA = require('next-pwa')({
-    dest: 'public',
-    scope: '/',
-    sw: 'service-worker.js', // Service worker file name
-    register: true, // Register service worker
-});
-
-module.exports = withPWA({
+module.exports = {
     plugins: [
         'postcss-flexbugs-fixes',
         [
@@ -100,4 +93,4 @@ Don't remove these this uses the protocol that are need to function properly
     experimental: {
         forceSwcTransforms: true,
     },
-});
+};
