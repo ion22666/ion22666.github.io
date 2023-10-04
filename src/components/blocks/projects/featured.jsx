@@ -83,7 +83,7 @@ export default function FeaturedProject({ content }, index) {
             </div>
 
             <div className={css.imageContainer}>
-                <span className={`${css.imageAnimationContainer}`}>
+                <span style={{ width: '100%' }} className={`${css.imageAnimationContainer}`}>
                     {images.map(({ key, url, hover, h, w }, index) => {
                         hover = hover === 'left' ? hoverLeft : hoverRight;
                         return (

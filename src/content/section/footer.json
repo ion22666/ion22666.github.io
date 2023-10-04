@@ -1,8 +1,18 @@
 {
     "Websites": [
         {
-            "person": "ionmocanu.com",
-            "link": "https://ionmocanu.com/",
+            "person": "My Portfolio",
+            "link": "https://ion22666.github.io/",
+            "note": ""
+        },
+        {
+            "person": "Gionify",
+            "link": "https://gionify-v2.vercel.app/",
+            "note": ""
+        },
+        {
+            "person": "Vremea",
+            "link": "https://vremea-md.vercel.app/",
             "note": ""
         }
     ],
@@ -38,20 +48,20 @@
 
     "social": [
         {
-            "url": "https://medium.com/@ion-mocanu",
+            "url": "https://medium.com/@ionmocanu2266",
             "icon": "medium"
         },
         {
-            "url": "https://dev.to/ionmocanu",
-            "icon": "dev"
-        },
-        {
-            "url": "https://www.linkedin.com/in/ion-mocanu-/",
+            "url": "https://www.linkedin.com/in/mocanu-ion-137212208/",
             "icon": "linkedin"
         },
         {
-            "url": "https://github.com/ion-mocanu",
+            "url": "https://github.com/ion22666",
             "icon": "github"
+        },
+        {
+            "url": "https://www.reddit.com/user/ion2266",
+            "icon": "reddit"
         }
     ]
 }

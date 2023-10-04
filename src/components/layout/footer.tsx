@@ -102,7 +102,7 @@ export default function Footer(): JSX.Element {
                         </li>
                     </ul>
                 </section>
-                <section className={css.github}>
+                {/* <section className={css.github}>
                     <a href={settings.portfolio.repo_html} rel="noreferrer" target="_blank">
                         <h5>{settings.portfolio.fork_this}</h5>
                         <ul>
@@ -118,7 +118,7 @@ export default function Footer(): JSX.Element {
                             </li>
                         </ul>
                     </a>
-                </section>
+                </section> */}
             </Container>
             <canvas id="gradient-canvas" className={''} data-transition-in=""></canvas>
         </footer>

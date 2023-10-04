@@ -1,47 +1,45 @@
 [
     {
-        "project": "NeuroLink",
-        "url": "https://github.com/ion-mocanu/neurolink",
+        "project": "PRESNOIR",
+        "url": "https://dev.performaker.ro/server/presnoir",
         "repo": "Private",
-        "descriptionTitle": "NeuroLink is a package",
-        "description": "that aims to provide various AI capabilities, including a chatbot, image processing, audio processing, Django support, and more. It utilizes TensorFlow and other related technologies for natural language processing and AI tasks.",
+        "descriptionTitle": "Data Management in the Cloud",
+        "description": "PresNoir is a cloud-based data management system designed for effortless storage, retrieval, and analysis of large data sets. It provides organized data, real-time collaboration, and powerful search tools—a perfect choice for businesses and research institutions embracing cloud technology for efficient data management",
         "imageOptions": [],
-        "images": [{ "key": "mock-stack", "hover": "right", "h": "300", "w": "700", "url": "/img/neurolink.png" }],
+        "images": [{ "key": "presnoir", "hover": "right", "h": "300", "w": "700", "url": "/img/Screenshot 2023-10-0a4 150854.png" }],
         "stack": [
+            { "key": "googlecloud", "name": "Google Cloud Platform (GCP)", "type": "devicon" },
+            { "key": "nodejs", "name": "Node.js", "type": "devicon" },
+            { "key": "postgresql", "name": "Postgresql", "type": "devicon" },
+            { "key": "docker", "name": "Docker", "type": "devicon" },
             { "key": "python", "name": "Python", "type": "devicon" },
-            { "key": "tensorflow", "name": "TensorFlow", "type": "devicon" },
             { "key": "javascript", "name": "JavaScript", "type": "devicon" },
-            { "key": "git", "name": "Git", "type": "devicon" },
-            { "key": "numpy", "name": "NumPy", "type": "devicon" },
-            { "key": "scikit", "name": "scikit-learn", "type": "devicon" },
-            { "key": "pytorch", "name": "PyTorch", "type": "devicon" },
-            { "key": "keras", "name": "Keras", "type": "devicon" },
-            { "key": "js", "name": "JavaScript", "type": "devicon" },
             { "key": "typescript", "name": "TypeScript", "type": "devicon" },
-            { "key": "c", "name": "C", "type": "devicon" },
-            { "key": "cpp", "name": "C++", "type": "devicon" }
+            { "key": "nestjs", "name": "Next.js", "type": "devicon" },
+            { "key": "html5", "name": "HTML5", "type": "devicon" },
+            { "key": "css3", "name": "CSS3", "type": "devicon" }
         ]
     },
     {
-        "project": "ionmocanu.com",
-        "url": "https://github.com/ion-mocanu/portfolio",
-        "repo": "public",
-        "descriptionTitle": "An open source personal website",
-        "description": "built on Next.js and React. A fast and responsive single page application.",
+        "project": "GIONIFY",
+        "url": "https://gionify-v2.vercel.app/",
+        "repo": "Private",
+        "descriptionTitle": "An Spotify Client like",
+        "description": "built on Next.js and serverless frameworks. A fast and responsive single page application.",
         "imageOptions": [{ "key": "size", "value": "large" }],
-        "images": [{ "key": "portfolio", "hover": "left", "h": "550", "w": "330", "url": "/img/img-mock.png" }],
+        "images": [{ "key": "portfolio", "hover": "right", "h": "330", "w": "330", "url": "/img/gionify.png" }],
         "stack": [
             { "key": "nextjs", "name": "Next.js", "type": "devicon" },
             { "key": "react", "name": "React", "type": "devicon" },
             { "key": "nodejs", "name": "Node.js", "type": "devicon" },
-            { "key": "mongodb", "name": "MongoDB", "type": "devicon" },
+            { "key": "postgresql", "name": "Postgresql", "type": "devicon" }    ,
+            { "key": "supabase", "name": "Supabase", "type": "devicon" },
             { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+            { "key": "typescript", "name": "TypeScript", "type": "devicon" },
             { "key": "html5", "name": "HTML5", "type": "devicon" },
             { "key": "css3", "name": "CSS3", "type": "devicon" },
-            { "key": "sass", "name": "SCSS", "type": "devicon" },
-            { "key": "git", "name": "Git(Hub)", "type": "devicon" },
-            { "key": "python", "name": "Python", "type": "devicon" },
-            { "key": "django", "name": "Django", "type": "devicon" }
+            { "key": "tailwindcss", "name": "TailwindCSS", "type": "devicon" },
+            { "key": "git", "name": "Git(Hub)", "type": "devicon" }
         ]
     }
 ]
