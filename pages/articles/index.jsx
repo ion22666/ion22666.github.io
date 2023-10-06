@@ -44,7 +44,7 @@ export default function Articles({ mediumArticles }) {
     );
 }
 
-export async function getServerSideProps({ res }) {
+export async function getStaticProps({ res }) {
     {
         /*This gets called on every request*/
     }
