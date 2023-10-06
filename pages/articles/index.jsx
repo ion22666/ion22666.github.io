@@ -49,7 +49,7 @@ export async function getStaticProps({ res }) {
         /*This gets called on every request*/
     }
 
-    res.setHeader('Cache-Control', 'public, s-maxage=600, stale-while-revalidate=59');
+    // res.setHeader('Cache-Control', 'public, s-maxage=600, stale-while-revalidate=59');
 
     console.log(settings.username.medium);
 
