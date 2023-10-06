@@ -36,7 +36,7 @@ export default function Recent({}) {
         <Section classProp="borderBottom">
             {/* @ts-ignore */}
             <Container spacing={'verticalXXXXLrg'}>
-                <SectionTitle title="Featured Docs" preTitle="Documentation" subTitle="featured documentation of projects" />
+                <SectionTitle title="Contact Me" preTitle="" subTitle="get in touch with me" />
                 <section className={css.projects}>
                     {docs.map(({ title, pubDate, link, author, thumbnail, categories }, index) => {
                         const date = new Date(pubDate).toDateString();
