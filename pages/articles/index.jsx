@@ -21,6 +21,7 @@
  */
 
 import dynamic from 'next/dynamic';
+import React, { useEffect, useState } from 'react';
 
 const Recent = dynamic(import('../../src/components/sections/articles/recent'));
 
@@ -31,10 +32,20 @@ import settings from '../../src/content/_settings.json';
 import TitleArticles from './title.articles';
 
 //this is the article page
-export default function Articles({ mediumArticles }) {
+export default function Articles() {
     {
         /*this will return the article page content from medium using api req*/
     }
+    const [mediumArticles, setMediumArticles] = useState({ items: [] });
+    useEffect(() => {
+        (async () => {
+            const [mediumRSS] = await Promise.all([fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/${settings.username.medium}`)]);
+
+            let [mediumArticles] = await Promise.all([mediumRSS.json()]);
+            setMediumArticles(mediumArticles || []);
+        })();
+    });
+
     return (
         <>
             <TitleArticles />
@@ -42,20 +53,4 @@ export default function Articles({ mediumArticles }) {
             <Recent mediumArticles={mediumArticles} />
         </>
     );
-}
-
-export async function getStaticProps({ res }) {
-    {
-        /*This gets called on every request*/
-    }
-
-    // res.setHeader('Cache-Control', 'public, s-maxage=600, stale-while-revalidate=59');
-
-    console.log(settings.username.medium);
-
-    const [mediumRSS] = await Promise.all([fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/${settings.username.medium}`)]);
-
-    let [mediumArticles] = await Promise.all([mediumRSS.json()]);
-
-    return { props: { mediumArticles } };
 }
