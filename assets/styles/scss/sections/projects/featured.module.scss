@@ -25,6 +25,9 @@
 
     &:nth-of-type(2n) {
         flex-direction: row-reverse;
+        img{
+            margin-left: 2rem;
+        }
     }
 
     &:hover {

@@ -1,24 +1,3 @@
-/*
- * Copyright (c) 2023 [Ion Mocanu](https://github.com/ion-mocanu/)
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS.md OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- */
 import Image from 'next/image';
 
 import { useEffect } from 'react';
@@ -59,7 +38,7 @@ export default function FeaturedProject({ content }, index) {
             whileHover="hover"
             animate={controls}
         >
-            <div className={css.details}>
+            <div className={css.details} onClicl={() => window.open(url, '_blank')}>
                 <div className={css.projectHeader}>
                     <div className={css.header}>
                         <h3 className="highlight">{project}</h3>
@@ -82,7 +61,7 @@ export default function FeaturedProject({ content }, index) {
                 </div>
             </div>
 
-            <div className={css.imageContainer}>
+            <div className={css.imageContainer} onClicl={() => window.open(url, '_blank')}>
                 <span style={{ width: '100%' }} className={`${css.imageAnimationContainer}`}>
                     {images.map(({ key, url, hover, h, w }, index) => {
                         hover = hover === 'left' ? hoverLeft : hoverRight;
