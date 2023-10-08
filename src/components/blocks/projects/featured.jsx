@@ -38,7 +38,7 @@ export default function FeaturedProject({ content }, index) {
             whileHover="hover"
             animate={controls}
         >
-            <div className={css.details} onClicl={() => window.open(url, '_blank')}>
+            <div className={css.details} onClick={() => window.open(url, '_blank')}>
                 <div className={css.projectHeader}>
                     <div className={css.header}>
                         <h3 className="highlight">{project}</h3>
@@ -61,7 +61,7 @@ export default function FeaturedProject({ content }, index) {
                 </div>
             </div>
 
-            <div className={css.imageContainer} onClicl={() => window.open(url, '_blank')}>
+            <div className={css.imageContainer} onClick={() => window.open(url, '_blank')}>
                 <span style={{ width: '100%' }} className={`${css.imageAnimationContainer}`}>
                     {images.map(({ key, url, hover, h, w }, index) => {
                         hover = hover === 'left' ? hoverLeft : hoverRight;
