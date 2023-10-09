@@ -61,15 +61,15 @@ export default function Document() {
 
                 <meta property="og:title" content="Ion Mocanu" key="title" />
                 <meta property="og:description" content="Ion Mocanu - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-                <meta property="og:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
-                <meta property="og:image:secure_url" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
+                <meta property="og:image" content="https://cdn.discordapp.com/attachments/638749541834817557/1160935767418355823/image.png" />
+                <meta property="og:image:secure_url" content="https://cdn.discordapp.com/attachments/638749541834817557/1160935767418355823/image.png" />
                 <meta property="og:image:type" content="image/jpeg" />
                 <meta property="og:image:alt" content="Ion Mocanu" />
-                <meta property="og:image:width" content="300" />
+                <meta property="og:image:width" content="500" />
                 <meta property="og:image:height" content="300" />
-                <meta property="og:url" content="https://ionmocanu.com" />
+                <meta property="og:url" content="https://ion22666.github.io/" />
                 <meta property="og:type" content="website" />
-                <meta property="og:profile" content="https://github.com/ion-mocanu" />
+                <meta property="og:profile" content="https://github.com/ion22666" />
                 <meta property="og:site_name" content="Ion Mocanu" />
                 <meta property="og:locale" content="en_US" />
 
