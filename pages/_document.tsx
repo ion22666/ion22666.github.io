@@ -6,11 +6,6 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
-                {/*
-				Author: Ion Mocanu
-                 GitHub: Visit the GitHub repository at https://github.com/ion-mocanu/portfolio/ for more details.
-                 license: MIT License
-                  */}
                 <meta charSet="utf-8" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
@@ -77,7 +72,7 @@ export default function Document() {
                 <meta name="twitter:site" content="https://twitter.com/ionmocanu_" />
                 <meta name="twitter:title" content="Ion Mocanu" />
                 <meta name="twitter:description" content="Ion Mocanu - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-                <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
+                <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/638749541834817557/1160935767418355823/image.png" />
                 <meta name="twitter:creator" content="https://twitter.com/ionmocanu_" />
                 <meta name="twitter:domain" content="https://ionmocanu.com" />
 
